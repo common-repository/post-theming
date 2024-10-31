@@ -1,0 +1,67 @@
+@charset "UTF-8";
+
+/**
+ * post-theming-admin.css - CSS for the Settings page.
+ *
+ * @package Post Theming
+ * @subpackage css
+ * @author GrandSlambert
+ * @copyright 2009-2011
+ * @access public
+ * @since 0.1
+*/
+#post_theming_rows th {
+     vertical-align: bottom;
+     font-size: 12px;
+     text-align: center;
+}
+
+.post-theming-number {
+     width: 50px;
+}
+
+ul#post_theming_tabs {
+     border-bottom:1px solid #A2B6CB;
+     font-family:Verdana,Arial;
+     font-size:12px;
+     font-weight:bold;
+     list-style-type:none;
+     margin-bottom:12px;
+     padding-bottom:28px;
+     z-index:1;
+}
+
+#post_theming_tabs li {
+     background-color: #EBEBEB;
+     border: 1px solid #A2B6CB;
+     float: left;
+     height: 25px;
+     margin: 2px 0px 0px 5px;
+}
+
+#post_theming_tabs li a {
+     color: #666;
+     display: block;
+     float: right;
+     padding: 5px;
+     text-decoration: none;
+}
+
+#post_theming_widget_tabs li.save-tab a {
+     color: #fff;
+}
+
+#post_theming_tabs li.post-theming-selected {
+     background-color: #A2B6CB;
+}
+
+#post_theming_tabs li.post-theming-selected a{
+     color: #fff;
+}
+
+.post-theming-title {
+     font-size: 14px;
+     font-weight: bold;
+     border-bottom: solid 1px #ddd;
+     border-top: solid 1px #ddd;
+}

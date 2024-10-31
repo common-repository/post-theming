@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+/**
+ * post-theming-site.css - CSS for the themed pages.
+ *
+ * @package Post Theming
+ * @subpackage css
+ * @author GrandSlambert
+ * @copyright 2009-2011
+ * @access public
+ * @since 0.1
+*/
+.post-theming-border {
+     border-right: solid 1px #DDD;
+     margin-right: 5px;
+}
+.post-theming-first-column {
+     clear: both;
+}
+
+.post-theming-last-column {
+     padding-right: inherit;
+     margin-right: 0;
+     border-right: none;
+}
+
+.post-theming-left {
+     margin-right: 8px !important;
+     margin-bottom: 5px !important;
+}
+
+.post-theming-right {
+     margin-left: 8px !important;
+     margin-bottom: 5px !important;
+}
+
+.post-theming-cleared {
+     clear: both;
+     margin-bottom: 3px;
+}
